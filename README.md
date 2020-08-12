@@ -7,6 +7,9 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 - **nginx** - `:8080` (localhost)
 - **mysql** - `:3306`
 - **php** - `:9000`
+<img src="post1.PNG">
+
+![Alt text](post1.PNG)
 
 ## Persistent MySQL Storage
 Path (./twitterclone/mysql )
@@ -34,7 +37,4 @@ SQL stored at docker-container given the following parameters
 ```
 ##You can modify the .env file to change ports
 
-<img src="post1.PNG">
-
-![Alt text](post1.PNG)
 
