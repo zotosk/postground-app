@@ -34,5 +34,7 @@ SQL stored at docker-container given the following parameters
 ```
 ##You can modify the .env file to change ports
 
-<img src="post1.png">
+<img src="post1.PNG">
+
+![Alt text](post1.PNG)
 
