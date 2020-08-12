@@ -7,9 +7,10 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 - **nginx** - `:8080` (localhost)
 - **mysql** - `:3306`
 - **php** - `:9000`
-<img src="post1.PNG">
 
-![Alt text](post1.PNG)
+<img src="post1.PNG">
+<img src="post2.PNG">
+<img src="post3.PNG">
 
 ## Persistent MySQL Storage
 Path (./twitterclone/mysql )
