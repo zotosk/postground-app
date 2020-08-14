@@ -20,8 +20,12 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 ## Persistent MySQL Storage
 Path example root (./postground/mysql )
 ````
-SQL stored with a docker-container volume given the following parameters  ( ``` volumes:
-      - ./mysql:/var/lib/mysql ``` )
+SQL stored with a docker-container volume given the following parameters and specify the root folder of the project to keep your sql data, otherwise it will drop everything when docker goes down.
+
+volumes:
+      - ./mysql:/var/lib/mysql
+
+//Docker image of mysql and parameters
 
  mysql:
     image: mysql:5.7.29
