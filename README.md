@@ -8,9 +8,13 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 - **mysql** - `:3306`
 - **php** - `:9000`
 
+<img src="post1.PNG">
+<img src="post2.PNG">
+<img src="post3.PNG">
+
 ## Persistent MySQL Storage
 Path (./twitterclone/mysql )
-
+````
 SQL stored at docker-container given the following parameters
 
  mysql:
@@ -31,5 +35,7 @@ SQL stored at docker-container given the following parameters
       SERVICE_NAME: mysql
     networks:
       - laravel
-
+```
 ##You can modify the .env file to change ports
+
+
