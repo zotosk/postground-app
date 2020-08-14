@@ -18,9 +18,10 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 - run the migrations
 
 ## Persistent MySQL Storage
-Path (./twitterclone/mysql )
+Path example root (./postground/mysql )
 ````
-SQL stored at a docker-container volume given the following parameters
+SQL stored with a docker-container volume given the following parameters  ( ``` volumes:
+      - ./mysql:/var/lib/mysql ``` )
 
  mysql:
     image: mysql:5.7.29
