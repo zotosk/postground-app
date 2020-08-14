@@ -3,8 +3,7 @@
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository.
 
-
-- **nginx** - `:8080` (localhost)
+- **nginx** - `:8080`
 - **mysql** - `:3306`
 - **php** - `:9000`
 
@@ -19,7 +18,7 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 
 ## Persistent MySQL Storage
 Path example root (./postground/mysql )
-````
+```
 SQL stored with a docker-container volume given the following parameters and specify the root folder of the project to keep your sql data, otherwise it will drop everything when docker goes down.
 
 volumes:
