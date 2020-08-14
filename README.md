@@ -12,10 +12,15 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 <img src="post2.PNG">
 <img src="post3.PNG">
 
+## Create a new laravel project
+- copy paste the folders of this repo isnide the src
+- modify the ports and database credentials
+- run the migrations
+
 ## Persistent MySQL Storage
 Path (./twitterclone/mysql )
 ````
-SQL stored at docker-container given the following parameters
+SQL stored at a docker-container volume given the following parameters
 
  mysql:
     image: mysql:5.7.29
@@ -36,6 +41,6 @@ SQL stored at docker-container given the following parameters
     networks:
       - laravel
 ```
-##You can modify the .env file to change ports
+## You can modify the .env file to change ports
 
 
